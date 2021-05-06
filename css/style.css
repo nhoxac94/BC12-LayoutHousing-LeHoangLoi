@@ -377,7 +377,12 @@ html, body {
     background-color: rgba(0, 189, 189, 0.53);
     padding: 18px 19px;
 }
-    
+ 
+.play__popup {
+    background-color: #fff;
+    padding: 0;
+}
+
 .play__video  i  {
     font-size: 35px;
     color: #ffffff
