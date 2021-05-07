@@ -165,9 +165,9 @@ html, body {
     height: 64px;
     width: 64px;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: -6%;
-    z-index: 3;
+    z-index: 99999;
     cursor: pointer;
     text-shadow: 2px 1px 3px #000;
 }
@@ -178,11 +178,12 @@ html, body {
     height: 64px;
     width: 64px;
     position: absolute;
-    top: 40%;
-    right: -7%;
-    z-index: 3;
+    top: 50%;
+    right: -6%;
+    z-index: 99999;
     cursor: pointer;
     text-shadow: 2px 1px 3px #000;
+    overflow: hidden;
 }
 
 
